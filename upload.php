@@ -27,4 +27,4 @@ if ($file->getError() !== UPLOAD_ERR_OK) {
     exit('File uploading failed.');
 }
 
-$file->moveTo('/path/to/new/file');
+$file->moveTo('/path/to/new/file/pdf');

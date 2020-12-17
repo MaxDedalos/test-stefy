@@ -5,7 +5,7 @@ use Zend\Diactoros\ServerRequestFactory;
 
 $request = ServerRequestFactory::fromGlobals();
 
-if ($request->getMethod() !== 'POST') {
+if ($request->getMethod() !== 'get') {
     http_response_code(405);
     exit('Use POST method.');
 }

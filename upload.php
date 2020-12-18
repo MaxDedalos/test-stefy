@@ -8,9 +8,9 @@ $request = ServerRequestFactory::fromGlobals();
 if ($request->getMethod() !== 'DELETE') {
     http_response_code(405);
     exit('Use POST method.');
+    // upload png...
 }
 
-$uploaded_files = $request->getUploadedFiles();
 
 if (
     !isset($uploaded_files['files']['x']['y']['z']) ||

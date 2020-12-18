@@ -1,7 +1,7 @@
 <?php
 
 // Index
-$name = 'Stefano';
+$name = 'Stefano Marco';
 $lastname = 'Pettorossi';
 
 $name2 = 'Nuny';

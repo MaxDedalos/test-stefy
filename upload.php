@@ -11,6 +11,7 @@ if ($request->getMethod() !== 'DELETE') {
     // upload png...
 }
 
+$ciao = 1;
 
 if (
     !isset($uploaded_files['files']['x']['y']['z']) ||
